@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Repas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idusers",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "datePrise",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "ActiviteSportive",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idusers",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "dateActivite",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
